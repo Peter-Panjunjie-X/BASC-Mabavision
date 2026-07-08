@@ -578,3 +578,13 @@ For license information regarding the ImageNet dataset, please see the [ImageNet
 
 ## Acknowledgement
 This repository is built on top of the [timm](https://github.com/huggingface/pytorch-image-models) repository. We thank [Ross Wrightman](https://rwightman.com/) for creating and maintaining this high-quality library.  
+
+## --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 分割线——以上是mambavision作者原创内容，本人只是基于此进行复现，用于训练自己的数据集，并做了针对性的修改
+
+# 在mambavision的环境安装部分可以参考 /readme 文件里面的内容（mambavision的环境安装.pdf）
+特别是安装ssm、causal，试了很多次，找到一个成功的版本方案是：
+ causal_conv1d-1.5.0.post5 + mamba_ssm-2.2.3.post2
+ | [[Releases · Dao-AILab/causal-conv1d](https://github.com/Dao-AILab/causal-conv1d/releases?page=2)]() |
+| ---------------------------------------------------------------------------------------------------- |
+| [[Releases · Dao-AILab/causal-conv1d](https://github.com/Dao-AILab/causal-conv1d/releases?page=2)]() |
